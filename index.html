@@ -1,0 +1,132 @@
+<!doctype html5>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+      
+    <nav class=" sticky-top navbar navbar-expand-lg navbar-dark bg-primary">
+   
+        <a class="navbar-brand" href="#">Portfolio</a>
+            
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skill">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <a id="about"></a>
+    <main class="container mt-3">
+    <section class="flex-md-row d-flex gap-2 justify-content-sm-center justify-content-md-evenly align-items-center flex-column-reverse">
+      <div class="d-flex justify-content-sm-center  align-items-start flex-column ">
+        
+        <h5 >Hi!👋</h5>
+        <h1>I,m Shubham Nain</h1>
+        <p>A fullstack web developer!</p>
+        <button class="btn btn-primary btn-sm">My cool resume</button>
+      </div>
+      <div class="d-md-none w-25 h-25">
+        <img class="rounded-circle shadow img-thumbnail" src="shubham.jpg" alt="user">
+      </div>
+      <div class="d-none d-md-block w-25 h-25">
+        <img class="rounded-circle shadow img-thumbnail" src="shubham.jpg" alt="user">
+      </div>
+    </section>
+    <a id="skill"></a>
+    <section class="mt-4 text-primary p-4 rounded">
+      
+      <h1  class=" text-center">My Skill Set</h1>
+      <div class="d-flex justify-content-evenly">
+        <img class="img-thumbnail border border-white" src="html5.png" >
+       <img class="img-thumbnail border border-white" src="css.png" >
+        <img class="img-thumbnail border border-white" src="bootstrap.jpg">
+        
+
+      </div>
+      
+    </section>
+    <a id="blog"></a>
+    <h1   class="text-primary text-center">My Work</h1>
+    <section class="d-flex mt-4 p-4 justify-content-evenly">
+      
+      <div class="card" style="width: 18rem;">
+        <img src="drone.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">DRONE</h5>
+          <p class="card-text">Nowadays all things are going through rapid change in technology and drone is 
+            playing a major role in the that.drone are used in different fields for different 
+            purposes.so we got the idea to use a drone for the agriculture area so that it helps 
+            to produce more yield. This drone can lift up to 2kg with 45 minutes of flight time in 
+            both the mode i.e(autopilot and RC control).</p>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="bowl.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BOWLSAFE</h5>
+          <p class="card-text">Bowlsafe device is used to tell the rotation as well as the acceleration of the person 
+            in 3D space. The purpose of this device is to reduce back injury in the training of fast 
+            bowlers. </p>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="wms.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Water Monitoring System(IOT)</h5>
+          <p class="card-text">Growing factories or industrial areas lead to water pollution in the nearby areas 
+            which are destroying our ecological system. To deal with this problem and how to 
+            monitor the change in the water through an IoT device name as a water monitoring 
+            system. It has a sensor to sense PH level, temperature, TDS, Flow rate, dissolve 
+            oxygen. </p>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="marigold.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Flower Count</h5>
+          <p class="card-text">Counting flowers for selling them and earn a profit. For the human being is a difficult 
+            task to count each flower so that he can estimate the profit with accuracy.so we 
+            develop an application which can count the number of flower in the field. And 
+            estimate the field view count. </p>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
+        </div>
+      </div>
+    </section>
+    <a id="contact"></a>
+    <section>
+      <form>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" required placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" required placeholder="enter your messege please" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">submit</button>
+      </form>
+      <div>
+        <h3>@shubhamnain28@gmail.com</h3>
+      </div>
+    </section>
+  </main>
+  
+  </body>
+</html>
